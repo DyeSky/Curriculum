@@ -335,7 +335,7 @@ margin-top: 0.7rem;
 
 .Columna2-1 {
   margin-top: -4rem;
-  width: 21.5rem;
+  width: 21.8rem;
   height: 32rem;
   display: flex;
   flex-direction: row;
@@ -520,7 +520,7 @@ margin-bottom: -12rem;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  border-radius: 1.1rem;
+  
 }
 
 .title-footer {
@@ -530,6 +530,7 @@ margin-bottom: -12rem;
   justify-content: center;
   align-items: center;
   background-color: white;
+  border-radius: 1.1rem;
   padding: 1rem;
   width: 20rem;
   height: 5rem;
