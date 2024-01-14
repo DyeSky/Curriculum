@@ -419,7 +419,7 @@ margin-left: -2rem;
 }
 
 .img-2 {
-  margin-top: -2rem;
+  margin-top: -3rem;
   width: 4rem;
   height: 4rem;
 }
@@ -460,8 +460,11 @@ margin-left: -2rem;
   
   display: grid;
   grid-template-columns: repeat(2, 8rem);
-  grid-gap: 3rem;
+  grid-gap: 5rem;
+  
 }
+
+
 
 
 .Columna-3 {
@@ -472,7 +475,7 @@ margin-bottom: -12rem;
   flex-direction: column;
   flex-wrap: nowrap;
   background-color: white;
-  width: 10rem;
+  width: 12rem;
   border: 2rem;
   border-radius: 1.1rem;
   justify-content: center;
@@ -488,7 +491,9 @@ margin-bottom: -12rem;
   justify-content: center;
   align-items: center;
 }
-
+.foto2{
+  margin-left: 2rem;
+}
 .contenedor-links{
   display: inline;
 }
