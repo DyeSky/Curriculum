@@ -6,7 +6,7 @@ body {
   margin-right: 4rem;
   font-family: "Nanum Gothic", sans-serif;
   background-color: #f1edea;
-  transform: scale(1); /* Ajusta el valor según tus necesidades */
+  transform: scale(0.8); /* Ajusta el valor según tus necesidades */
   transform-origin: 0 0; 
 }
 
