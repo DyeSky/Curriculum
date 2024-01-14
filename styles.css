@@ -247,7 +247,7 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  margin-left: 15rem;
+  margin-left: 35rem;
 }
 
 .title-footer {
@@ -360,7 +360,8 @@ margin-top: 0.7rem;
 }
 
 .fotoPresentacion {
-  width: 10rem;
+margin-left: -2rem;
+  width: 11rem;
   height: 13rem;
 }
 .boton-conocer {
