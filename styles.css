@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+body {
+  margin: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  font-family: "Nanum Gothic", sans-serif;
+  background-color: #f1edea;
+  transform: scale(1); /* Ajusta el valor según tus necesidades */
+  transform-origin: 0 0; 
+}
+
+.inicio {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    35rem
+  ); /* Crea 3 columnas de 100px cada una */
+  grid-gap: 8rem; /* Espacio entre las cajas */
+}
+
+.Columna-1 {
+  background-color: white;
+  width: 25rem;
+  padding: 0.7rem;
+  border-color: white;
+  border-radius: 1.1rem;
+}
+
+#foto {
+  width: 20rem;
+  height: 17rem;
+  border-radius: 80%;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    9rem
+  ); /* Crea 3 columnas de 100px cada una */
+  grid-gap: 1.5rem; /* Espacio entre las cajas */
+}
+
+.progress-container {
+  width: 200px;
+  background-color: #c98950;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 7px;
+  width: 0;
+  background-color: #d05e07;
+  text-align: center;
+  border-color: #d05e07;
+  line-height: 20px;
+
+  color: rgb(0, 0, 0);
+}
+#bio-name {
+  font-size: 3rem;
+}
+#bio {
+  font-size: 2rem;
+  color: #d05e07;
+}
+.Columna-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.Columna2-1 {
+  width: 45rem;
+  height: 27rem;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-color: white;
+  border-radius: 1.1rem;
+  padding: 2rem;
+  margin-left: -12rem;
+  grid-gap: 3rem;
+}
+
+#presentacion {
+  width: 35rem;
+  height: 20rem;
+}
+
+.fotoPresentacion {
+  width: 20rem;
+  height: 20rem;
+}
+.boton-conocer {
+  background-color: #d05e07;
+  font-family: "Nanum Gothic", sans-serif;
+  border-radius: 1.5rem;
+  border-color: #d05e07;
+  color: black;
+  font-size: 1rem;
+  width: 9rem;
+  height: 3rem;
+}
+
+.boton-conocer:hover {
+  background-color: #d05e07;
+  font-family: "Nanum Gothic", sans-serif;
+  border-radius: 1.5rem;
+  border-color: #d05e07;
+  color: black;
+  font-size: 1rem;
+  width: 10rem;
+  height: 3.5rem;
+  cursor: pointer;
+}
+
+.herramientas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: -9rem;
+}
+
+.Titulo-herramientas {
+  font-size: 2rem;
+}
+
+.contenedor-herramientas {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1.1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 12rem);
+  grid-template-rows: repeat(2, 8rem);
+  grid-gap: 0.5rem;
+}
+.img-1 {
+  margin-left: 5rem;
+  width: 12rem;
+  height: 5rem;
+}
+
+.img-2 {
+  margin-top: -2rem;
+  width: 9rem;
+  height: 9rem;
+}
+.estudios {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: -9rem;
+}
+#educacion {
+  font-size: 2rem;
+}
+
+.contenedor-eduacion {
+  font-size: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.img-3 {
+  width: 9rem;
+  height: 12rem;
+}
+
+.contenedor-estudios {
+  color: black;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 12rem);
+  grid-gap: 2rem;
+}
+
+.Columna-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: white;
+  width: 10rem;
+  border: 2rem;
+  border-radius: 1.1rem;
+  justify-content: center;
+}
+
+.columna3-1 {
+  display: flex;
+  margin-top: -38rem;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-size: 2rem;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto1 {
+  width: 4rem;
+  height: 4rem;
+}
+
+.foto1:hover {
+  width: 5rem;
+  height: 5rem;
+}
+
+.foto2 {
+  width: 5rem;
+  height: 5rem;
+}
+.foto2:hover {
+  width: 6rem;
+  height: 6rem;
+}
+.contenedor-links{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rem;
+}
+
+.title-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  width: 40rem;
+  height: 5rem;
+}
+
+/*CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC*/
+
+@media (max-width: 667px) {
+  
+body {
+margin-top: 0.7rem;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  font-family: "Nanum Gothic", sans-serif;
+  background-color: #f1edea;
+  transform: scale(1); /* Ajusta el valor según tus necesidades */
+  transform-origin: 0 0; 
+}
+.inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.Columna-1 {
+  background-color: white;
+  width: 20rem;
+  padding: 0.7rem;
+  border-color: white;
+  border-radius: 1.1rem;
+}
+
+#foto {
+  width: 20rem;
+  height: 17rem;
+  border-radius: 80%;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.data {
+  display: grid;
+  font-size: 1rem;
+  grid-template-columns: repeat(
+    2,
+    4.5rem
+  ); /* Crea 3 columnas de 100px cada una */
+  grid-gap: 1rem; /* Espacio entre las cajas */
+}
+
+.progress-container {
+  width: 200px;
+  background-color: #c98950;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 7px;
+  width: 0;
+  background-color: #d05e07;
+  text-align: center;
+  border-color: #d05e07;
+  line-height: 20px;
+
+  color: rgb(0, 0, 0);
+}
+
+
+.Columna2-1 {
+  margin-top: -4rem;
+  width: 21rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-color: white;
+  border-radius: 1.1rem;
+  padding: 1rem;
+  grid-gap: 2rem;
+  margin-left: 2rem;
+}
+
+#bio-name {
+  font-size: 1.7rem;
+}
+#bio {
+  font-size: 1.7rem;
+  color: #d05e07;
+}
+#presentacion {
+  width: 35rem;
+  height: 20rem;
+}
+
+.fotoPresentacion {
+  width: 10rem;
+  height: 13rem;
+}
+.boton-conocer {
+  background-color: #d05e07;
+  font-family: "Nanum Gothic", sans-serif;
+  border-radius: 1.5rem;
+  border-color: #d05e07;
+  color: black;
+  font-size: 1rem;
+  width: 9rem;
+  height: 3rem;
+}
+
+.boton-conocer:hover {
+  background-color: #d05e07;
+  font-family: "Nanum Gothic", sans-serif;
+  border-radius: 1.5rem;
+  border-color: #d05e07;
+  color: black;
+  font-size: 1rem;
+  width: 10rem;
+  height: 3.5rem;
+  cursor: pointer;
+}
+
+
+.herramientas {
+  margin-top: 1rem;
+  width: 16rem;
+  height: 23rem;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Titulo-herramientas {
+  font-size: 2rem;
+}
+
+.contenedor-herramientas {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1.1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 7rem);
+  grid-template-rows: repeat(2, 4rem);
+  grid-gap: 0.5rem;
+}
+.img-1 {
+  width: 4rem;
+  height: 3rem;
+}
+
+.img-2 {
+  margin-top: -2rem;
+  width: 4rem;
+  height: 4rem;
+}
+.estudios {
+  margin-top:1rem;
+  margin-left: 0.7rem;
+  height:16rem ;
+  width: 23rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+#educacion {
+  font-size: 2rem;
+}
+
+.contenedor-eduacion {
+  font-size: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.img-3 {
+  width: 5rem;
+  height: 7rem;
+}
+
+.contenedor-estudios {
+  color: black;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 8rem);
+  grid-gap: 1rem;
+}
+
+
+.Columna-3 {
+  margin-top: 18rem;
+margin-bottom: -12rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: white;
+  width: 10rem;
+  border: 2rem;
+  border-radius: 1.1rem;
+  justify-content: center;
+}
+
+.columna3-1 {
+  display: flex;
+  margin-top: -38rem;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-size: 2rem;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-links{
+  display: inline;
+}
+
+.foto1 {
+  width: 4rem;
+  height: 4rem;
+}
+
+.foto1:hover {
+  width: 5rem;
+  height: 5rem;
+}
+
+.foto2 {
+  width: 5rem;
+  height: 5rem;
+}
+.foto2:hover {
+  width: 6rem;
+  height: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  width: 20rem;
+  height: 5rem;
+  margin-left:-15rem ;
+}
+}
