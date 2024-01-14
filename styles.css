@@ -247,7 +247,7 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  margin-left: 35rem;
+  margin-left: -6rem;
 }
 
 .title-footer {
@@ -467,10 +467,7 @@ margin-left: -2rem;
 
 
 
-
 .Columna-3 {
-  margin-top: 18rem;
-margin-bottom: -12rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -484,7 +481,7 @@ margin-bottom: -12rem;
 
 .columna3-1 {
   display: flex;
-  margin-top: -38rem;
+  margin-bottom: 14rem;
   flex-direction: column;
   flex-wrap: nowrap;
   font-size: 2rem;
@@ -492,6 +489,8 @@ margin-bottom: -12rem;
   justify-content: center;
   align-items: center;
 }
+
+
 .foto2{
   margin-left: 2rem;
 }
@@ -526,7 +525,7 @@ margin-bottom: -12rem;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  
+  margin-top: 20rem;
 }
 
 .title-footer {
@@ -540,6 +539,6 @@ margin-bottom: -12rem;
   padding: 1rem;
   width: 20rem;
   height: 5rem;
-  margin-left:-46rem ;
+  margin-left:5rem ;
 }
 }
