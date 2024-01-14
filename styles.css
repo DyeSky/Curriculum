@@ -283,7 +283,7 @@ margin-top: 0.7rem;
 }
 .Columna-1 {
   background-color: white;
-  width: 22rem;
+  width: 23.1rem;
   padding: 0.7rem;
   border-color: white;
   border-radius: 1.1rem;
@@ -310,7 +310,7 @@ margin-top: 0.7rem;
   font-size: 1rem;
   grid-template-columns: repeat(
     2,
-    4.5rem
+    9rem
   ); /* Crea 3 columnas de 100px cada una */
   grid-gap: 2.5rem; /* Espacio entre las cajas */
 }
@@ -363,7 +363,7 @@ margin-top: 0.7rem;
 .fotoPresentacion {
 margin-left: -2rem;
   width: 13rem;
-  height: 14rem;
+  height: 15rem;
 }
 .boton-conocer {
   background-color: #d05e07;
@@ -420,6 +420,7 @@ margin-left: -2rem;
 }
 
 .img-2 {
+  margin-left: 1.5rem;
   margin-top: -1rem;
   width: 4rem;
   height: 4rem;
