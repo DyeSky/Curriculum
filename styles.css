@@ -335,7 +335,7 @@ margin-top: 0.7rem;
 
 .Columna2-1 {
   margin-top: -4rem;
-  width: 21rem;
+  width: 22.5rem;
   height: 32rem;
   display: flex;
   flex-direction: row;
@@ -361,7 +361,7 @@ margin-top: 0.7rem;
 
 .fotoPresentacion {
 margin-left: -2rem;
-  width: 11rem;
+  width: 13rem;
   height: 13rem;
 }
 .boton-conocer {
@@ -460,7 +460,7 @@ margin-left: -2rem;
   
   display: grid;
   grid-template-columns: repeat(2, 8rem);
-  grid-gap: 1rem;
+  grid-gap: 3rem;
 }
 
 
@@ -514,16 +514,6 @@ margin-bottom: -12rem;
 
 
 
-
-
-
-
-
-
-
-
-
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -542,6 +532,6 @@ margin-bottom: -12rem;
   padding: 1rem;
   width: 20rem;
   height: 5rem;
-  margin-left:-15rem ;
+  margin-left:-51rem ;
 }
 }
